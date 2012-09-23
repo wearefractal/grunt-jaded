@@ -24,4 +24,4 @@ module.exports = (grunt) ->
   grunt.loadTasks 'tasks'
 
   ## default 
-  grunt.registerTask "default", "jaded mocha"
+  grunt.registerTask "default", "jaded"
