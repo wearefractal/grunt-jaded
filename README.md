@@ -15,7 +15,16 @@ grunt.loadNpmTasks('grunt-jaded');
 [getting_started]: https://github.com/cowboy/grunt/blob/master/docs/getting_started.md
 
 ## Documentation
-_(Coming soon)_
+
+```
+jaded:
+    app:
+      src: [ "#{app.paths.client}/templates/*.jade" ]
+      dest:  "#{app.paths.public}/templates"
+      options:
+        amd: true
+        development: false
+        rivets: false
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
