@@ -7,4 +7,5 @@ module.exports =
       cat("./public/templates/test.js")
         .should
         .equal cat("./public/templates/expected.js")
+      rm './public/templates/test.js'
       done()

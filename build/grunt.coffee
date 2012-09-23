@@ -30,7 +30,7 @@ module.exports = (grunt) ->
 
   ## init config  
   grunt.initConfig gruntConfig
-  grunt.loadTasks 'build/tasks'
+  grunt.loadTasks 'tasks'
 
   ## default 
   grunt.registerTask "default", "jaded test"
