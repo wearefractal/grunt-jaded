@@ -1,0 +1,40 @@
+{
+  "name": "grunt-jaded",
+  "description": "compile jade templates with jaded",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wearefractal/grunt-jaded",
+  "author": {
+    "name": "Fractal",
+    "email": "aaron@wearefractal.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wearefractal/grunt-jaded.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wearefractal/grunt-jaded/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wearefractal/grunt-jaded/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-jaded",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "dependencies": {
+    "jaded": "*"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
