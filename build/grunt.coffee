@@ -2,7 +2,7 @@ root       = require('path').join __dirname, "../"
 gruntConfig =
   mocha: 
     all:
-      src: "./test/*.coffee" 
+      src: "#{root}/test/*.coffee" 
       options: 
         reporter:    'spec'
         ui:          'exports'
