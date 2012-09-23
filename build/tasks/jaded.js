@@ -2,9 +2,11 @@
 (function() {
 
   module.exports = function(grunt) {
-    return grunt.registerMultiTask("jaded", "compile jaded templates", function() {
-      var base, dest, file, files, jaded, templ, _i, _len, _results;
-      jaded = require('jaded');
+    var jaded, path;
+    path = require('path');
+    jaded = require('jaded');
+    return grunt.registerMultiTask("jaded", "compile jade templates", function() {
+      var base, dest, file, files, templ, _i, _len, _results;
       files = grunt.file.expandFiles(this.file.src);
       grunt.file.mkdir(this.file.dest);
       _results = [];

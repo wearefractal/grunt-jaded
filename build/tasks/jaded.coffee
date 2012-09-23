@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
-  grunt.registerMultiTask "jaded", "compile jaded templates", ->
-    jaded = require 'jaded'
+  path = require 'path'
+  jaded = require 'jaded'
+  grunt.registerMultiTask "jaded", "compile jade templates", ->
     files = grunt.file.expandFiles @file.src
     grunt.file.mkdir @file.dest
     for file in files
