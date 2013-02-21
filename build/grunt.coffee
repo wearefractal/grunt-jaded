@@ -9,7 +9,9 @@ gruntConfig =
         ignoreLeaks: 'true'
   jaded:
     app:
-      src: [ "#{root}/test/views/**/*.jade" ]
+      expand: true
+      cwd: "#{root}/test/views/"
+      src: [ "*.jade" ]
       dest:  "#{root}/test/public/templates"
       options:
         amd: true

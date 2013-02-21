@@ -1,7 +1,7 @@
 {
   "name": "grunt-jaded",
   "description": "compile jade templates with jaded",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/wearefractal/grunt-jaded",
   "author": {
     "name": "Fractal",
