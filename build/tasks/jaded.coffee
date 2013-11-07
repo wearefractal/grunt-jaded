@@ -12,3 +12,4 @@ module.exports = (grunt) ->
       @data.options.filename = file.src
       templ = jaded.compile grunt.file.read(file.src), @data.options
       grunt.file.write dest, templ
+      grunt.log.writeln "File #{dest} created."
